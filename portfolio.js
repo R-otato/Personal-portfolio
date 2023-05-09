@@ -28,18 +28,13 @@ export const skillsSection = {
   data: [
     {
       title: "Data Exploration and Wrangling",
-      lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
+      lottieAnimationFile: "/lottie/skills/29419-data-visualization.json", // Path of Lottie Animation JSON File
       skills: [
-        emoji(
-          "⚡ Creating Interactive Data Visualizations with Jupyter Notebook, Power BI, Tableau and SAP Analytics Cloud"
-        ),
-        emoji(
-          "⚡ Creating vizualizations in Jupyter Notebook using libraries such as Matplotlib, Seaborn and Plotly"
-        ),
-        emoji("⚡ Automating Data Preparation and Workflow with Alteryx."),
-        emoji(
-          "⚡ Writing complex SQL queries for data exploration and analysis"
-        ),
+        "⚡ Creating Interactive Data Visualizations with Jupyter Notebook, Power BI, Tableau and SAP Analytics Cloud",
+        "⚡ Creating vizualizations in Jupyter Notebook using libraries such as Matplotlib, Seaborn and Plotly",
+        "⚡ Automating Data Preparation and Workflow with Alteryx.",
+
+        "⚡ Writing complex SQL queries for data exploration and analysis",
       ],
       softwareSkills: [
         {
@@ -93,17 +88,13 @@ export const skillsSection = {
       lottieAnimationFile:
         "/lottie/skills/143472-mapping-for-machine-learning.json", // Path of Lottie Animation JSON File
       skills: [
-        emoji(
-          "⚡ Building supervised learning models in scikit-learn and PySpark"
-        ),
-        emoji("⚡ Building unsupervised learning models in scikit-learn"),
-        emoji("⚡ Performing Feature selection and engineering techniques"),
+        "⚡ Building supervised learning models in scikit-learn and PySpark",
+        "⚡ Building unsupervised learning models in scikit-learn",
+        "⚡ Performing Feature selection and engineering techniques",
 
-        emoji("⚡ Performing Model tuning and hyperparameter optimization"),
+        "⚡ Performing Model tuning and hyperparameter optimization",
 
-        emoji(
-          "⚡ Understanding Evaluation metrics for machine learning models"
-        ),
+        "⚡ Understanding Evaluation metrics for machine learning models",
       ],
       softwareSkills: [
         {
@@ -120,11 +111,9 @@ export const skillsSection = {
       title: "Cloud Infra-Architecture",
       lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
       skills: [
-        emoji("⚡ Experience of working on multiple cloud platforms"),
+        "⚡ Experience of working on multiple cloud platforms",
 
-        emoji(
-          "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases"
-        ),
+        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
       ],
       softwareSkills: [
         {
