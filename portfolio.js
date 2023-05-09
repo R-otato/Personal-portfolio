@@ -4,7 +4,7 @@ export const greetings = {
   name: "Ryan Liam",
   title: "Hi, I'm Ryan Liam",
   description:
-    "I am a Year 3 student studying for a Diploma in Data Science at Ngee Ann Polytechnic. Through my course of study, I am well equipped with a variety of Data Visualization tools, Data Cleaning, Data Transformation and Machine Learning techniques. Currently, I am looking for internship opportunities to enhance my Data Science skills and gain real-life work experience.",
+    "I am a passionate aspiring Data Scientist equipped with Data Visualization tools, Data Cleaning, Data Transformation and Machine Learning techniques. Currently, I am looking for opportunities to enhance my Data Science skills and gain real-life work experience.",
   resumeLink:
     "https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing",
 };
