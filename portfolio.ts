@@ -15,7 +15,7 @@ export const greetings: GreetingsType = {
   name: 'Ryan Liam',
   title: "Hi, I'm Ryan Liam",
   description:
-    "I am a Year 3 student studying for a Diploma in Data Science at Ngee Ann Polytechnic. Through my course of study, I am well equipped with a variety of Data Visualization tools, Data Cleaning, Data Transformation and Machine Learning techniques. Currently, I am looking for internship opportunities to enhance my Data Science skills and gain real-life work experience.",
+    'I am a Year 3 student studying for a Diploma in Data Science at Ngee Ann Polytechnic. Through my course of study, I am well equipped with a variety of Data Visualization tools, Data Cleaning, Data Transformation and Machine Learning techniques. Currently, I am looking for internship opportunities to enhance my Data Science skills and gain real-life work experience.',
   resumeLink:
     'https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing',
 };
@@ -27,308 +27,239 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  linkedin: "https://www.linkedin.com/in/ryan-liam-1a37bb203",
-  github: "https://github.com/R-otato",
-  instagram: "https://www.instagram.com/r._.liam/",
+  linkedin: 'https://www.linkedin.com/in/ryan-liam-1a37bb203',
+  github: 'https://github.com/R-otato',
+  instagram: 'https://www.instagram.com/r._.liam/',
 };
 
 export const skillsSection: SkillsSectionType = {
   title: 'What I do',
-  subTitle: 'Passionate Data Science Student Exploring New Techniques And Technologies',
+  subTitle:
+    'Passionate Data Science Student Exploring New Techniques And Technologies',
   data: [
     {
       title: 'Data Exploration and Wrangling',
       lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
-          "⚡ Creating Interactive Data Visualizations with Jupyter Notebook, Power BI, Tableau and SAP Analytics Cloud"
-          ),
-          emoji("⚡ Creating vizualizations in Jupyter Notebook using libraries such as Matplotlib, Seaborn and Plotly"),
-          emoji("⚡ Automating Data Preparation and Workflow with Alteryx."),
-          emoji("⚡ Writing complex SQL queries for data exploration and analysis"),
-          
+          '⚡ Creating Interactive Data Visualizations with Jupyter Notebook, Power BI, Tableau and SAP Analytics Cloud'
+        ),
+        emoji(
+          '⚡ Creating vizualizations in Jupyter Notebook using libraries such as Matplotlib, Seaborn and Plotly'
+        ),
+        emoji('⚡ Automating Data Preparation and Workflow with Alteryx.'),
+        emoji(
+          '⚡ Writing complex SQL queries for data exploration and analysis'
+        ),
       ],
-      
+
       softwareSkills: [
+        {
+          skillName: 'Jupyter Notebook',
+
+          fontAwesomeClassName: 'logos:jupyter',
+        },
 
         {
-        
-        skillName: "Jupyter Notebook",
-        
-        fontAwesomeClassName: "logos:jupyter",
-        
+          skillName: 'Matplotlib',
+
+          fontAwesomeClassName: 'logos:matplotlib',
         },
-        
+
         {
-        
-        skillName: "Matplotlib",
-        
-        fontAwesomeClassName: "logos:matplotlib",
-        
+          skillName: 'Seaborn',
+
+          fontAwesomeClassName: 'logos:seaborn',
         },
-        
+
         {
-        
-        skillName: "Seaborn",
-        
-        fontAwesomeClassName: "logos:seaborn",
-        
+          skillName: 'Plotly',
+
+          fontAwesomeClassName: 'devicon:plotly-wordmark',
         },
-        
+
         {
-        
-        skillName: "Plotly",
-        
-        fontAwesomeClassName: "devicon:plotly-wordmark",
-        
+          skillName: 'Power BI',
+
+          fontAwesomeClassName: 'logos:microsoft-power-bi',
         },
-        
+
         {
-        
-        skillName: "Power BI",
-        
-        fontAwesomeClassName: "logos:microsoft-power-bi",
-        
+          skillName: 'Tableau',
+
+          fontAwesomeClassName: 'logos:tableau-icon',
         },
-        
+
         {
-        
-        skillName: "Tableau",
-        
-        fontAwesomeClassName: "logos:tableau-icon",
-        
+          skillName: 'SAP Analytics Cloud',
+
+          fontAwesomeClassName: 'logos:sap',
         },
-        
+
         {
-        
-        skillName: "SAP Analytics Cloud",
-        
-        fontAwesomeClassName: "logos:sap",
-        
+          skillName: 'Alteryx',
+
+          fontAwesomeClassName: 'mdi:alpha-a-box-outline',
         },
-        
+
         {
-        
-        skillName: "Alteryx",
-        
-        fontAwesomeClassName: "mdi:alpha-a-box-outline",
-        
+          skillName: 'SQL',
+
+          fontAwesomeClassName: 'carbon:sql',
         },
-        
-        {
-        
-        skillName: "SQL",
-        
-        fontAwesomeClassName: "carbon:sql",
-        
-        },
-        
-        ],
-        
-        },
-        
-        {
-      title: "Machine-Learning",
-      lottieAnimationFile: "/lottie/skills/143472-mapping-for-machine-learning.json", // Path of Lottie Animation JSON File
+      ],
+    },
+
+    {
+      title: 'Machine-Learning',
+      lottieAnimationFile:
+        '/lottie/skills/143472-mapping-for-machine-learning.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
-          "⚡ Building supervised learning models in scikit-learn and PySpark"
-          ),
-          emoji(
-          
-          "⚡ Building unsupervised learning models in scikit-learn"
-          
-          ),
-          emoji(
-          "⚡ Performing Feature selection and engineering techniques"
-          ),
-          
-          emoji("⚡ Performing Model tuning and hyperparameter optimization"),
-          
-          emoji(
-          
-          "⚡ Understanding Evaluation metrics for machine learning models"
-          
-          ),
+          '⚡ Building supervised learning models in scikit-learn and PySpark'
+        ),
+        emoji('⚡ Building unsupervised learning models in scikit-learn'),
+        emoji('⚡ Performing Feature selection and engineering techniques'),
+
+        emoji('⚡ Performing Model tuning and hyperparameter optimization'),
+
+        emoji(
+          '⚡ Understanding Evaluation metrics for machine learning models'
+        ),
       ],
       softwareSkills: [
+        {
+          skillName: 'scikit-learn',
+
+          fontAwesomeClassName: 'simple-icons:scikit-learn',
+        },
 
         {
-        
-        skillName: "scikit-learn",
-        
-        fontAwesomeClassName: "simple-icons:scikit-learn",
-        
+          skillName: 'PySpark',
+
+          fontAwesomeClassName: 'cib:apache-spark',
         },
-        
-        {
-        
-        skillName: "PySpark",
-        
-        fontAwesomeClassName: "cib:apache-spark",
-        
-        },
-        
-        ],
-        
-        },
-        
-        {
+      ],
+    },
+
+    {
       title: 'Cloud Infra-Architecture',
       lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji("⚡ Experience of working on multiple cloud platforms"),
+        emoji('⚡ Experience of working on multiple cloud platforms'),
 
-emoji(
-
-"⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases"
-
-),
+        emoji(
+          '⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases'
+        ),
       ],
       softwareSkills: [
         {
+          skillName: 'AWS',
 
-          skillName: "AWS",
-          
-          fontAwesomeClassName: "logos:aws",
-          
-          },
-          
-          {
-          
-          skillName: "Azure",
-          
-          fontAwesomeClassName: "logos:microsoft-azure",
-          
-          },
-          
-          {
-          
-          skillName: "Snowflake",
-          
-          fontAwesomeClassName: "tabler:brand-snowflake",
-          
-          },
-          
-          {
-          
-          skillName: "PostgreSQL",
-          
-          fontAwesomeClassName: "logos:postgresql",
-          
-          },
-          
-          {
-          
-          skillName: "Github",
-          
-          fontAwesomeClassName: "akar-icons:github-fill",
-          
-          },
-          
-          {
-          
-          skillName: "Docker",
-          
-          fontAwesomeClassName: "logos:docker-icon",
-          
-          },
-          
-          {
-          
-          skillName: "GCP",
-          
-          fontAwesomeClassName: "skill-icons:gcp-light",
-          
-          },
-          
-          {
-          
-          skillName: "Airbyte",
-          
-          fontAwesomeClassName: "simple-icons:airbyte",
-          
-          },
-          
-          ],
-          
-          },
-          
-          ],
-          
-          };
+          fontAwesomeClassName: 'logos:aws',
+        },
+
+        {
+          skillName: 'Azure',
+
+          fontAwesomeClassName: 'logos:microsoft-azure',
+        },
+
+        {
+          skillName: 'Snowflake',
+
+          fontAwesomeClassName: 'tabler:brand-snowflake',
+        },
+
+        {
+          skillName: 'PostgreSQL',
+
+          fontAwesomeClassName: 'logos:postgresql',
+        },
+
+        {
+          skillName: 'Github',
+
+          fontAwesomeClassName: 'akar-icons:github-fill',
+        },
+
+        {
+          skillName: 'Docker',
+
+          fontAwesomeClassName: 'logos:docker-icon',
+        },
+
+        {
+          skillName: 'GCP',
+
+          fontAwesomeClassName: 'skill-icons:gcp-light',
+        },
+
+        {
+          skillName: 'Airbyte',
+
+          fontAwesomeClassName: 'simple-icons:airbyte',
+        },
+      ],
+    },
+  ],
+};
 
 export const SkillBars: SkillBarsType[] = [
   {
+    Stack: 'Machine Learning',
 
-    Stack: "Machine Learning",
-    
-    progressPercentage: "90",
-    
-    },
-    
-    {
-    
-    Stack: "Data Wrangling",
-    
-    progressPercentage: "90",
-    
-    },
-    
-    {
-    
-    Stack: "Data Visualization",
-    
-    progressPercentage: "80",
-    
-    },
-    
-    {
-    
-    Stack: "Cloud Computing",
-    
-    progressPercentage: "60",
-    
-    },
-    
-    {
-    
-    Stack: "Deep Learning",
-    
-    progressPercentage: "10",
-    
-    },
-    
-    ];
+    progressPercentage: '90',
+  },
+
+  {
+    Stack: 'Data Wrangling',
+
+    progressPercentage: '90',
+  },
+
+  {
+    Stack: 'Data Visualization',
+
+    progressPercentage: '80',
+  },
+
+  {
+    Stack: 'Cloud Computing',
+
+    progressPercentage: '60',
+  },
+
+  {
+    Stack: 'Deep Learning',
+
+    progressPercentage: '10',
+  },
+];
 
 export const educationInfo: EducationType[] = [
   {
+    schoolName: 'Ngee Ann Polytechnic',
 
-    schoolName: "Ngee Ann Polytechnic",
-    
-    subHeader: "Diploma in Data Science",
-    
-    duration: "April 2021 – Present",
-    
-    desc: "Participating in the Snowflake x NP Industry Currency Project.",
-    
-    grade: "GPA: 3.90",
-    
+    subHeader: 'Diploma in Data Science',
+
+    duration: 'April 2021 – Present',
+
+    desc: 'Participating in the Snowflake x NP Industry Currency Project.',
+
+    grade: 'GPA: 3.90',
+
     descBullets: [
-    
-    "Offer a user-friendly customer analytics platform called Tasty Insights for the food truck business Tasty Bytes",
-    
-    "Create a streamlit application that provides key insights on customer behavior to improve retention and drive growth for Tasty Bytes Marketing and Sales Team",
-    
-    "Create an unsupervised learning model to perform customer segmentation",
-    
-    "Create a supervised learning model to predict the number of days to next purchase for customers",
-    
+      'Offer a user-friendly customer analytics platform called Tasty Insights for the food truck business Tasty Bytes',
+
+      'Create a streamlit application that provides key insights on customer behavior to improve retention and drive growth for Tasty Bytes Marketing and Sales Team',
+
+      'Create an unsupervised learning model to perform customer segmentation',
+
+      'Create a supervised learning model to predict the number of days to next purchase for customers',
     ],
-    
-    },
-    
-    ];
+  },
+];
 
 // export const experience: ExperienceType[] = [
 //   {
@@ -367,24 +298,20 @@ export const educationInfo: EducationType[] = [
 
 export const projects: ProjectType[] = [
   {
+    name: 'Formula One Predictor',
 
-    name: "Formula One Predictor",
-    
-    desc: "This project is aimed towards predicting the top half F1 GP winners based on information before the race",
-    
-    github: "https://github.com/R-otato/Formula-one-prediction",
-    
-    },
-    
-    {
-    
-    name: "Singapore HDB Resale Price Predictor",
-    
-    desc: "This project aims to create a machine-learning model for predicting the resale prices of HDB flats using their properties from the data given. Using the model, we can find how the selling price of an HDB resale flat changes based on the information given.",
-    
-    github: "https://github.com/R-otato/PySpark-HDB-resale-prediction",
-    
-    },
+    desc: 'This project is aimed towards predicting the top half F1 GP winners based on information before the race',
+
+    github: 'https://github.com/R-otato/Formula-one-prediction',
+  },
+
+  {
+    name: 'Singapore HDB Resale Price Predictor',
+
+    desc: 'This project aims to create a machine-learning model for predicting the resale prices of HDB flats using their properties from the data given. Using the model, we can find how the selling price of an HDB resale flat changes based on the information given.',
+
+    github: 'https://github.com/R-otato/PySpark-HDB-resale-prediction',
+  },
   // {
   //   name: 'Technota (Forum)',
   //   desc: 'Get hands-on experience in technical skills with Technota',
@@ -416,8 +343,7 @@ export const showContactUs: boolean = true;
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
   title: 'Ryan Liam',
-  description:
-    'A passionate Data Science Student.',
+  description: 'A passionate Data Science Student.',
   author: 'Hanzla Tauqeer',
   image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
   url: 'https://developer-portfolio-1hanzla100.vercel.app',
