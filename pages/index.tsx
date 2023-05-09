@@ -28,8 +28,8 @@ export default function Home({
       <Skills />
       <Proficiency />
       <Education />
-      <Experience />
-      <Feedbacks />
+      {/* <Experience />
+      <Feedbacks /> */}
       <Projects />
       {showContactUs ? <Contact /> : null}
       <GithubProfileCard {...githubProfileData} />
