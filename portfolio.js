@@ -241,17 +241,7 @@ export const educationInfo = [
 export const projects = [
   {
     name: "Formula One Predictor",
-    desc: "This project is aimed towards predicting the top half F1 GP winners based on information before the race.",
-    descBullets: [
-      "Data Vizualization",
-      "Data Cleaning",
-      "Categorical Encoding",
-      "Numerical Transformation",
-      "Feature Engineering",
-      "Feature Scaling",
-      "Machine Learning",
-      "Feature Importance",
-    ],
+    desc: "This project is aimed towards predicting the top half F1 GP winners based on information before the race.\n Data Vizualization, Data Cleaning, Categorical Encoding, Numerical Transformation, Feature Engineering, Feature Scaling, Machine Learning, Feature Importance",
     github: "https://github.com/R-otato/Formula-one-prediction",
   },
   {
