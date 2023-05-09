@@ -105,6 +105,10 @@ export const skillsSection = {
           skillName: "PySpark",
           fontAwesomeClassname: "cib:apache-spark",
         },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "devicon:python",
+        },
       ],
     },
     {
