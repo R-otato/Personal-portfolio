@@ -4,7 +4,7 @@ export const greetings = {
   name: "Ryan Liam",
   title: "Hi, I'm Ryan Liam",
   description:
-    "I am an aspiring data scientist who is proficient in data visualization, cleaning, transformation, and machine learning techniques seeking opportunities to enhance skills and gain real-world experience.",
+    "I am an aspiring data scientist who is proficient in data visualization, cleaning, transformation, and machine learning techniques. I am seeking opportunities to enhance my skills and gain real-world experience.",
   resumeLink:
     "https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing",
 };
