@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
+// import { Link } from "react-router-dom";
+
 import { greetings, socialLinks } from '../portfolio';
 import Headroom from 'headroom.js';
+import Link from 'next/link';
 import {
   UncontrolledCollapse,
   NavbarBrand,
@@ -20,7 +23,7 @@ const Navigation = () => {
   const onExited = () => setCollapseClasses('');
 
   useEffect(() => {
-    let headroom = new Headroom(document.getElementById('navbar-main')!);
+    let headroom = new Headroom(document.getElementById('navbar-main'));
     // initialise
     headroom.init();
   });

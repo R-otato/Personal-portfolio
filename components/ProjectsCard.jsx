@@ -1,9 +1,10 @@
 import React from 'react';
-import { Card, CardBody, Col, Button } from 'reactstrap';
-import Fade from 'react-reveal/Fade';
-import { ProjectType } from '../types/sections';
 
-const ProjectsCard = ({ name, desc, github, link }: ProjectType) => {
+import { Card, CardBody, Col, Button } from 'reactstrap';
+
+import { Fade } from 'react-reveal';
+
+const ProjectsCard = ({ data }) => {
   return (
     <Col lg="6">
       <Fade bottom duration={2000}>
@@ -11,13 +12,13 @@ const ProjectsCard = ({ name, desc, github, link }: ProjectType) => {
           <CardBody>
             <div className="d-flex px-3">
               <div className="pl-4">
-                <h3>{name}</h3>
-                <p className="description mt-3">{desc}</p>
-                {github ? (
+                <h3>{data.name}</h3>
+                <p className="description mt-3">{data.desc}</p>
+                {data.github ? (
                   <Button
                     className="btn-icon"
                     color="github"
-                    href={github}
+                    href={data.github}
                     target="_blank"
                     rel="noopener"
                     aria-label="Github"
@@ -27,11 +28,11 @@ const ProjectsCard = ({ name, desc, github, link }: ProjectType) => {
                     </span>
                   </Button>
                 ) : null}
-                {link ? (
+                {data.link ? (
                   <Button
                     className="btn-icon"
                     color="success"
-                    href={link}
+                    href={data.link}
                     target="_blank"
                     rel="noopener"
                     aria-label="Twitter"
@@ -39,7 +40,9 @@ const ProjectsCard = ({ name, desc, github, link }: ProjectType) => {
                     <span className="btn-inner--icon">
                       <i className="fa fa-arrow-right mr-2" />
                     </span>
-                    <span className="nav-link-inner--text ml-1">Demo</span>
+                    <span className="nav-link-inner--text ml-1">
+                      {data.text}
+                    </span>
                   </Button>
                 ) : null}
               </div>
