@@ -239,7 +239,7 @@ export const projects = [
   },
   {
     name: "Singapore HDB Resale Price Predictor",
-    desc: "This project aims to create a machine-learning model for predicting the resale prices of HDB flats using their properties from the data given. Using the model, we can find how the selling price of an HDB resale flat changes based on the information given.",
+    desc: "This project aims to create a machine-learning model for predicting the resale prices of HDB flats using their properties from the data given.",
     github: "https://github.com/R-otato/PySpark-HDB-resale-prediction",
   },
   {
