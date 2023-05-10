@@ -265,4 +265,5 @@ export const projects = [
 export const seoData = {
   title: "Ryan Liam",
   description: "A passionate Data Science Student.",
+  image: "https://avatars.githubusercontent.com/u/94153321?v=4",
 };
