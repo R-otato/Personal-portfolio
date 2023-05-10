@@ -243,7 +243,7 @@ export const projects = [
     github: "https://github.com/R-otato/PySpark-HDB-resale-prediction",
   },
   {
-    name: "Tasty Insights (Ongoing- Github link coming soon)",
+    name: "Tasty Insights Streamlit Application  (Ongoing- Github link coming soon)",
     desc: "The objective of this project is to enhance customer retention and drive growth for the food truck business Tasty Bytes by integrating machine learning model predictions and key insights about their customer into a streamlit application. The result will assist the Marketing and Sales team in making more informed decisions and improving their strategies.",
   },
 ];
