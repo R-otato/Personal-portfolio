@@ -21,8 +21,7 @@ export default function Home({ githubProfileData }) {
         data={{
           title: "Ryan Liam",
           description: "A passionate Data Science Student.",
-          image:
-            "https://avatars.githubusercontent.com/u/94153321?s=400&u=d1db79b8bee336962ec1db5a0981791309ebe1a3&v=4",
+          image: "https://avatars.githubusercontent.com/u/94153321",
           url: "https://master--ryan-liam-portfolio.netlify.app",
           keywords: ["R-otato"],
         }}
