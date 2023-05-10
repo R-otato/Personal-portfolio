@@ -242,6 +242,11 @@ export const projects = [
     desc: "This project aims to create a machine-learning model for predicting the resale prices of HDB flats using their properties from the data given. Using the model, we can find how the selling price of an HDB resale flat changes based on the information given.",
     github: "https://github.com/R-otato/PySpark-HDB-resale-prediction",
   },
+  {
+    name: "Tasty Insights (Ongoing)",
+    desc: "The objective of this project is to enhance customer retention and drive growth for the food truck business Tasty Bytes by integrating machine learning model predictions and key insights into customer behavior. The result will assist the Marketing and Sales team in making more informed decisions and improving their strategies.",
+    github: "https://github.com/R-otato",
+  },
 ];
 
 // export const feedbacks = [
