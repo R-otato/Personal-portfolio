@@ -25,10 +25,10 @@ const GithubProfileCard = ({ prof }) => {
                 DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR
                 ALL
               </p>
-              <p className="text-white mt-3">Aspiring Data Scientist</p>
+              <p className="text-white mt-3">{prof.bio}</p>
               <div className="my-3 icon-shape bg-gradient-white shadow rounded text-info">
-                <i className="ni ni-pin-3 text-info mr-2"></i>
-                "Singapore"
+                <i className="ni ni-pin-3 text-info mr-2" />
+                {prof.location}
               </div>
               <SocialLinks />
             </Col>
