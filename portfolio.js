@@ -234,29 +234,29 @@ export const educationInfo = [
 export const projects = [
   {
     name: "Formula One Predictor",
-    desc: "This project is aimed towards predicting the top half F1 GP winners based on information before the race.<br/><span class='strong'>Tools used</span>: Jupyter",
+    desc: "This project is aimed towards predicting the top half F1 GP winners based on information before the race.<br/><span style='font-weight:bold'>Tools used</span>: Jupyter",
     github: "https://github.com/R-otato/Formula-one-prediction",
   },
   {
     name: "Singapore HDB Resale Price Predictor",
-    desc: "This project aims to create a machine-learning model for predicting the resale prices of HDB flats using their properties from the data given. <br/><span class='strong'>Tools used</span>: Jupyter + PySpark",
+    desc: "This project aims to create a machine-learning model for predicting the resale prices of HDB flats using their properties from the data given. <br/><span style='font-weight:bold'>Tools used</span>: Jupyter + PySpark",
     github: "https://github.com/R-otato/PySpark-HDB-resale-prediction",
   },
   {
     name: "Dataplex",
-    desc: "The project is aimed to create a Data as a Service platform to get raw data, store it in a secure and accessible database and sell transformed data as insightful findings. <br/><span class='strong'>Tools used</span>: Airbyte + Azure + PowerBI",
+    desc: "The project is aimed to create a Data as a Service platform to get raw data, store it in a secure and accessible database and sell transformed data as insightful findings. <br/><span style='font-weight:bold'>Tools used</span>: Airbyte + Azure + PowerBI",
     github:
       "https://github.com/R-otato/Dataplex/blob/main/RyanLiam_Dashboards.pdf",
   },
   {
     name: "SG Bus Timing Tracker",
-    desc: "The project is aimed to make use of a front-end and an analytics automation platform, Alteryx, to provide commuters with real-time information on when a bus will arrive at their selected bus stop. <br/><span class='strong'>Tools used</span>: Alteryx Designer + AdobeXD",
+    desc: "The project is aimed to make use of a front-end and an analytics automation platform, Alteryx, to provide commuters with real-time information on when a bus will arrive at their selected bus stop. <br/><span style='font-weight:bold'>Tools used</span>: Alteryx Designer + AdobeXD",
     github:
       "https://github.com/R-otato/SG-Bus-Timing-Tracker/blob/main/Documentation_Reflection.pdf",
   },
   {
     name: "Tasty Insights Streamlit Application  (Ongoing- Github link coming soon)",
-    desc: "The objective of this project is to enhance customer retention and drive growth for the food truck business Tasty Bytes by integrating machine learning model predictions and key insights about their customer into a streamlit application. <br/><span class='strong'>Tools used</span>: Jupyter + Snowflake + Streamlit",
+    desc: "The objective of this project is to enhance customer retention and drive growth for the food truck business Tasty Bytes by integrating machine learning model predictions and key insights about their customer into a streamlit application. <br/><span style='font-weight:bold'>Tools used</span>: Jupyter + Snowflake + Streamlit",
   },
 ];
 
