@@ -234,12 +234,12 @@ export const educationInfo = [
 export const projects = [
   {
     name: "Formula One Predictor",
-    desc: "This project is aimed towards predicting the top half F1 GP winners based on information before the race.<br/><strong>Tools used:</strong>: Jupyter",
+    desc: "This project is aimed towards predicting the top half F1 GP winners based on information before the race.<br/></b>Tools used</b>: Jupyter",
     github: "https://github.com/R-otato/Formula-one-prediction",
   },
   {
     name: "Singapore HDB Resale Price Predictor",
-    desc: "This project aims to create a machine-learning model for predicting the resale prices of HDB flats using their properties from the data given. <br/><strong>Tools used:</strong>: Jupyter + PySpark",
+    desc: "This project aims to create a machine-learning model for predicting the resale prices of HDB flats using their properties from the data given. <br/><b>Tools used</b>: Jupyter + PySpark",
     github: "https://github.com/R-otato/PySpark-HDB-resale-prediction",
   },
   {
