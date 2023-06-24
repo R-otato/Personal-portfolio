@@ -4,6 +4,8 @@ import { Card, CardBody, Col, Button } from "reactstrap";
 
 import { Fade } from "react-reveal";
 
+const htmlstring = { dangerouslySetInnerHTML: { __html: data.desc } };
+
 const ProjectsCard = ({ data }) => {
   return (
     <Col lg="6">
