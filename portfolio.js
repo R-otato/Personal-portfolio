@@ -245,13 +245,13 @@ export const projects = [
   {
     name: "Dataplex",
     desc: "The project is aimed to create a Data as a Service platform to get raw data, store it in a secure and accessible database and sell transformed data as insightful findings. \n Tools used: Airbyte + Azure + PowerBI",
-    githubL:
+    github:
       "https://github.com/R-otato/Dataplex/blob/main/RyanLiam_Dashboards.pdf",
   },
   {
     name: "SG Bus Timing Tracker",
     desc: "The project is aimed to make use of a front-end and an analytics automation platform, Alteryx, to provide commuters with real-time information on when a bus will arrive at their selected bus stop. \n Tools used: Alteryx Designer + AdobeXD",
-    githubL:
+    github:
       "https://github.com/R-otato/SG-Bus-Timing-Tracker/blob/main/Documentation_Reflection.pdf",
   },
   {
