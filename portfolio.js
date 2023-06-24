@@ -191,7 +191,7 @@ export const educationInfo = [
       "Offer a user-friendly customer analytics platform called Tasty Insights for the food truck business Tasty Bytes",
       "Create a streamlit application that provides key insights on Tasty Bytes Customers to improve retention and drive growth for Tasty Bytes Marketing and Sales Team",
       "Create an unsupervised learning model to perform customer segmentation",
-      "Create a supervised learning model to predict the number of days to next purchase for customers",
+      "Create a supervised learning model to predict whether a member will churn or not",
     ],
   },
 ];
