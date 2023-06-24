@@ -234,7 +234,7 @@ export const educationInfo = [
 export const projects = [
   {
     name: "Formula One Predictor",
-    desc: "This project is aimed towards predicting the top half F1 GP winners based on information before the race. <br/>Tools used: Jupyter",
+    desc: "This project is aimed towards predicting the top half F1 GP winners based on information before the race. Tools used: Jupyter",
     github: "https://github.com/R-otato/Formula-one-prediction",
   },
   {
